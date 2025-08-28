@@ -1,10 +1,13 @@
 import './App.css'
+import { AddTodo } from './components/AddTodo/AddTodo'
 
 function App() {
 
   return (
     <>
-      <h1 className=' text-2xl font-medium text-center mt-20'> This is Todo App</h1>
+      <main className=' w-full h-screen bg-cyan-950 text-white flex flex-col justify-center items-center'>
+        <AddTodo/>
+      </main>
     </>
   )
 }
